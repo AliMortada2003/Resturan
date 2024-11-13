@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Layout */
+.Padding-layout {
+  padding: 100px 0;
+}
+
+.heading-section {
+  padding: 100px 0;
+}
+
+/* Header */
+header {
+  padding: 25px;
+}
+
+.navbar-nav .nav-item {
+  padding: 5px 25px;
+  text-align: center;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.navbar-brand h1 {
+  color: #FEA116;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #FEA116;
+}
+
+/* Home Section */
+.carousel-item {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-item video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 30%;
+  left: auto;
+  text-align: center;
+  font-family: cursive;
+}
+
+/* About Us */
+#about-us {
+  background: linear-gradient(rgba(15, 23, 43, .9), rgba(10, 23, 43, .5)), url("./images/bg/about.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 100px 0;
+}
+
+/* Services */
+#services {
+  background: linear-gradient(rgba(15, 23, 43, .9), rgba(10, 23, 43, .5)), url("./images/bg/services-section.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.service-item {
+  background-color: #081020;
+  transition: transform 0.6s ease-in;
+}
+
+.service-item:hover {
+  transform: scale(1.1);
+}
+
+.service-item p {
+  font-size: 20px;
+}
+
+.service-item h5 {
+  font-size: 30px;
+}
+
+.wow {
+  border: solid 1px rgba(255, 191, 0, 0.442);
+  margin: 0;
+}
+
+/* Our Menu */
+#our-menu {
+  background: linear-gradient(rgba(15, 23, 43, .5), rgba(15, 23, 43, .5)), url("./images/bg/menu.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+}
+
+/* Contact Us */
+#contact {
+  background: linear-gradient(rgba(15, 23, 43, .9), rgba(10, 23, 43, .5)), url("./images/bg/cntact-section.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgAbout {
+  background-color: #1f1c28 !important;
+}
+
+.ourMenu {
+  background-color: #070d1b;
+}
+
+.active {
+  color: #FEA116 !important;
+}
+.container{
+  width: 95% !important;
+}

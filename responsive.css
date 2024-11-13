@@ -1,0 +1,8 @@
+@media (max-width:750px) {
+    header{
+        padding: 34px 15px;
+    }
+    .section{
+        width: 100%;
+    }
+}
